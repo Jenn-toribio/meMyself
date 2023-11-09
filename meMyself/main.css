@@ -1,0 +1,103 @@
+body {
+    background-color:#FFF3DA
+    font-size: 17px;
+  }
+  
+  header {
+    background-color: #DFCCFB;
+  }
+  
+  button {
+    width:7rem;
+    border: solid;
+    border-radius: 2px;
+    padding: .75rem;
+    background-color:;
+    color: black;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:#BEADFA;
+    color:#FFDBC3;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+  }
+  
+  div {
+    width:100%;
+    height: auto;
+    padding: 0 10px;
+  }
+  
+  #card {
+    text-align: center;
+    background-color: blanchedalmond;
+    width: 75%;
+    height: auto;
+  }
+  
+  image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+/*
+  .flex-container #projectOne, #projectTwo, #projectThree {
+    background-color: #BEADFA;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
